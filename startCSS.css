@@ -19,3 +19,7 @@ html, body {
 	font-size: 100px;
 	font: Sans-serif;
 }
+
+div:hover {
+	color: #d3d3d3;
+}
