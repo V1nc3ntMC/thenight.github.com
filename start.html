@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>A.N.N</title>
+  <title>A.N.N</title>
+  <script>
+    function playCorrect() { 
+      audio.play(); 
+    }
 </head>
 <body style="background-color:#563142;" >
+  <div>
+  <video id="myVideo" width="0" height="0">
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+  
   <div width="80" height="80">
   <img src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/img4.png?raw=true" width="80" height="80" usemap="#img4" />
   <map name="img4">
-    <area shape="circle" coords="40,40,18">
+    <area shape="circle" coords="40,40,18" onclick="playCorrect()">
   </div>
 </body>
 </html>
