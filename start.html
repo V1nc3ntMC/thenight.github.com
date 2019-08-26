@@ -9,6 +9,11 @@
     function playVid() { 
       vid.play(); 
     } 
+    
+    $(".1").on("click", function(e){
+      e.preventDefault();
+      vid.play()
+    });
   </script>
   
   <style>
@@ -27,14 +32,14 @@
     
     <img src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/img1.png?raw=true" width="80" height="80" usemap="#img1" id="img1" />
     <map name="img1" />
-    <area shape="circle" coords="40,40,78" onclick="playVid()" id="img1" />
+    <area class="1" shape="circle" coords="40,40,78" onclick="playVid()" id="img1" />
     
   </div>
   <div width="80" height="80" id="img4">
     
     <img src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/img4.png?raw=true" width="80" height="80" usemap="#img4" id="img4" />
     <map name="img4" />
-    <area shape="circle" coords="40,40,18" onclick="playVid()" id="img4" />
+    <area class="4" shape="circle" coords="40,40,18" onclick="playVid()" id="img4" />
   
   </div>
   
