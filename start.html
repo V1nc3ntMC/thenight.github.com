@@ -3,28 +3,22 @@
 <head>
   <title>A.N.N</title>
   <script>
-    var vid = document.getElementById("myVideo");
     
-    function playCorrect() { 
-      vid.play(); 
-    }
   </script>
 </head>
 <body style="background-color:#563142;" >
-  <button onclick="playCorrect()" type="button">Play Video</button>
-  
-  <div>
-  <video id="myVideo" width="100" height="100">
-    <source src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/PuzzlePassHit.mp4?raw=true" type="video/mp4">
-    <source src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/PuzzlePassHit.ogg?raw=true" type="video/ogg">
-    Your browser does not support HTML5 video.
-  </video>
+  <div width="80" height="80">
+    <img src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/img1.png?raw=true" width="80" height="80" usemap="#img1" />
+    <map name="img1" />
+    <area shape="circle" coords="40,40,80" onclick="playCorrect()" href="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/PuzzlePassHit.mp4?raw=true" />
   </div>
   
   <div width="80" height="80">
-  <img src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/img4.png?raw=true" width="80" height="80" usemap="#img4" />
-  <map name="img4">
-    <area shape="circle" coords="40,40,18" onclick="playCorrect()" href="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/PuzzlePassHit.mp4?raw=true">
+    <img src="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/img4.png?raw=true" width="80" height="80" usemap="#img4" />
+    <map name="img4" />
+    <area shape="circle" coords="40,40,18" onclick="playCorrect()" href="https://github.com/VincentOchoa2007/thenight.github.com/blob/master/PuzzlePassHit.mp4?raw=true" />
   </div>
+  
+  
 </body>
 </html>
